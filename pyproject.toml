@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "panda-factor-core"
+version = "0.1.0"
+description = "Dependency-light quant factor toolkit: operators, Factor ABC, strategy base classes, backtest metrics"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = ["numpy>=1.24", "pandas>=2.0"]
+
+[tool.setuptools.packages.find]
+include = ["generate*", "backtest*"]
