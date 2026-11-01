@@ -151,4 +151,9 @@ Together: **compute (pandas) → transform (dbt) → serve to agents (MCP)**.
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+**AGPL-3.0** — see [LICENSE](LICENSE).
+
+This library is extracted from [PandaFactor](https://github.com/rogerlzp/panda_factor),
+which is licensed under the GNU Affero General Public License v3.0. The extracted code
+is a derivative work and therefore carries the same license. If you fork this, keep
+AGPL-3.0.
